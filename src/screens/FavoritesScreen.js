@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
-const FavoritesScreen = () => {
+const FavoritesScreen = (props) => {
     return (
         <View style={styles.screen}>
-            <Text>The Favorite Screen</Text>
+            <Text>The Favorites Screen!</Text>
         </View>
     );
 };

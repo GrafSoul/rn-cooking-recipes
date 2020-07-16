@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.primaryColor,
         borderRadius: 10,
         overflow: 'hidden',
+        marginVertical: 10,
     },
     detailText: {
         color: 'white',
